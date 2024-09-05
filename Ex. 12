@@ -2,4 +2,4 @@ const valorGasolina = 5.50; // Valor por litro
 const litros = 40;         // Quantidade de litros
 const custoAbastecimento = valorGasolina * litros;
 
-console.log(`O valor gasto para abastecer é: R$ ${custoAbastecimento}`);
+console.log(`O valor gasto para abastecer é: R$ ${custoAbastecimento}`);  // O valor gasto para abastecer é: R$ 220
