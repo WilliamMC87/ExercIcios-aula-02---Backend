@@ -1,5 +1,5 @@
-const primeiroNome = "João";
-const ultimoNome = "Silva";
+const primeiroNome = "William";
+const ultimoNome = "Costa";
 
 // Usando operador +
 const nomeCompleto1 = primeiroNome + " " + ultimoNome;
