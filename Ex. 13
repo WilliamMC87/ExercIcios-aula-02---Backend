@@ -7,4 +7,4 @@ const potenciaKW = potencia / 1000; // Convertendo watts para kilowatts
 const consumoMensal = potenciaKW * horasPorDia * diasPorMes;
 const custoMensal = consumoMensal * custoPorKW;
 
-console.log(`O valor em R$ é: ${custoMensal}`);
+console.log(`O valor em R$ é: ${custoMensal}`);  // O valor em R$ é: 105.00
