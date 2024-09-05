@@ -1,0 +1,18 @@
+// Usando var
+var varFora = "Eu sou fora do bloco";
+if (true) {
+  var varDentro = "Eu sou dentro do bloco";
+  console.log(varFora); // Acessível
+  console.log(varDentro); // Acessível
+}
+console.log(varDentro); // Acessível
+
+// Usando let
+let letFora = "Eu sou fora do bloco";
+if (true) {
+  let letDentro = "Eu sou dentro do bloco";
+  console.log(letFora); // Acessível
+  console.log(letDentro); // Acessível
+}
+console.log(letFora); // Acessível
+// console.log(letDentro); // Erro: letDentro não está acessível aqui

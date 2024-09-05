@@ -1,0 +1,10 @@
+const potencia = 1750; // Potência em watts
+const horasPorDia = 8;
+const diasPorMes = 25;
+const custoPorKW = 0.75; // Custo por kWh
+
+const potenciaKW = potencia / 1000; // Convertendo watts para kilowatts
+const consumoMensal = potenciaKW * horasPorDia * diasPorMes;
+const custoMensal = consumoMensal * custoPorKW;
+
+console.log(`O valor em R$ é: ${custoMensal}`);

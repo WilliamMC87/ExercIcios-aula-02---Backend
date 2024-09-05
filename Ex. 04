@@ -1,0 +1,6 @@
+let valor = 100;
+console.log(`Valor inicial: ${valor}`);
+
+// Reatribuição
+valor = 200;
+console.log(`Valor após reatribuição: ${valor}`);

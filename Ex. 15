@@ -1,0 +1,5 @@
+const peso = 70; // Peso em kg
+const altura = 1.75; // Altura em metros
+const imc = peso / (altura * altura);
+
+console.log(`O IMC é: ${imc}`);

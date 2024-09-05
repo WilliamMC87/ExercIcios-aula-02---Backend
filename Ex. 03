@@ -1,0 +1,7 @@
+const numero = 10;
+const texto = "O número é";
+
+// Usando template strings
+const frase = `${texto} ${numero}`;
+
+console.log(frase);

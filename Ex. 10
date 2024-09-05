@@ -1,0 +1,5 @@
+const V = 135; // Voltagem em volts
+const I = 5;   // Corrente em amperes
+const resistencia = V / I;
+
+console.log(`A resistência é: ${resistencia} ohms`);
