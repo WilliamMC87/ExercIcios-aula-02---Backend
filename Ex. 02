@@ -1,5 +1,5 @@
-const primeiroNome = "William";
-const ultimoNome = "Costa";
+const primeiroNome = "João";
+const ultimoNome = "Silva";
 
 // Usando operador +
 const nomeCompleto1 = primeiroNome + " " + ultimoNome;
@@ -7,5 +7,5 @@ const nomeCompleto1 = primeiroNome + " " + ultimoNome;
 // Usando template strings
 const nomeCompleto2 = `${primeiroNome} ${ultimoNome}`;
 
-console.log(`Nome completo usando operador +: ${nomeCompleto1}`);
-console.log(`Nome completo usando template strings: ${nomeCompleto2}`);
+console.log(`Nome completo usando operador +: ${nomeCompleto1}`);  // João Silva
+console.log(`Nome completo usando template strings: ${nomeCompleto2}`); // João Silva
