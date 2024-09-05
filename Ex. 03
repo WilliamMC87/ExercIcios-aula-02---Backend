@@ -4,4 +4,5 @@ const texto = "O número é";
 // Usando template strings
 const frase = `${texto} ${numero}`;
 
-console.log(frase);
+console.log(frase);  // O número é 10
+
