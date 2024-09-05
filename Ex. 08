@@ -2,4 +2,4 @@ const base = 10; // Exemplo de base
 const altura = 5; // Exemplo de altura
 const areaTriangulo = (base * altura) / 2;
 
-console.log(`A área do triângulo é: ${areaTriangulo}`);
+console.log(`A área do triângulo é: ${areaTriangulo}`);  // A área do triângulo é: 25
