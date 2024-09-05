@@ -2,4 +2,5 @@ const salarioBruto = 5000; // Exemplo de salário bruto
 const imposto = 0.20;      // 20%
 const salarioLiquido = salarioBruto * (1 - imposto);
 
-console.log(`O salário líquido é: ${salarioLiquido}`);
+console.log(`O salário líquido é: ${salarioLiquido}`);  // O salário líquido é: 4000
+
